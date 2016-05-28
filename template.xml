@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<template
+    format="4"
+    revision="1"
+    name="ListFragmentAchieve"
+    description="Creates a new ListFragmentAchieve"
+    minApi="7"
+    minBuildApi="14">
+
+    <category value="ListFragmentAchieveName" />
+
+	<!--  <parameter
+        id="adapterClass"
+        name="Adapter Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="CustomAdapter"
+        help="The name of the adapter class to create" /> -->
+	
+	<parameter
+        id="itemClass"
+        name="Item Name"
+        type="string"
+        constraints="class|nonempty"
+        default="String"
+        help="The name of the item class to use" />
+
+    <parameter
+        id="layoutName"
+        name="item_layout"
+        type="string"
+        constraints="layout|nonempty"
+        default="item_layout"
+        help="The name of the row layout to use" />
+
+    <!-- <parameter
+        id="fragmentClass"
+        name="fragment Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Fragment"
+        help="The name of the fragment class to create" /> -->
+
+    <parameter
+        id="fragment_layoutName"
+        name="fragment_layout"
+        type="string"
+        constraints="layout|nonempty"
+        default="fragment_layout"
+        help="The name of the row layout to use" />
+		
+   
+    <!-- 128x128 thumbnails relative to template.xml -->
+    <thumbs>
+        <!-- default thumbnail is required -->
+        <thumb>template_basic_activity_fragment.png</thumb>
+    </thumbs>
+
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
