@@ -6,7 +6,8 @@
 
 我们在使用AndroidStudio创建Activity的时候一般java文件，xml文件，以及在androidmanifest.xml配置文件中配置已经完成。
 
-上篇文章讲到AndroidStudio的文件模板放在安装目录下/plugins/Android/lib/templates 文件夹下面。
+上篇文章讲到AndroidStudio的文件模板放在安装目录下/plugins/Android/lib/templates 文件夹下面。  
+
 ![安装目录](http://img.blog.csdn.net/20160528155518855) 
 
 可以看到里面那些正是AndroidStudio默认提供的Activity类型（我截图里面多了几个，是我自己测试写的）。
